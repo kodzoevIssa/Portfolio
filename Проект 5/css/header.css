@@ -1,0 +1,115 @@
+.header_up {
+  background-color: #232536;
+}
+.header__tittle {
+  margin-top: 22px;
+}
+.header_up {
+  display: flex;
+  justify-content: space-around;
+}
+.header__navigation_list {
+  font-family: inter, sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  margin: 0 12px;
+}
+.header__navigation_list:hover {
+  color: rgb(200, 197, 197);
+}
+.fix {
+  margin: 0 24px 0 0;
+}
+.header__btn {
+  font-family: Sen, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 10px;
+  width: 160px;
+  height: 56px;
+  color: #232536;
+}
+.header_down {
+  position: relative;
+  height: 888px;
+  width: 100%;
+  background: url(../images/buk1.jpg) center fixed no-repeat;
+  background-size: cover;
+}
+.header_down:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 0;
+}
+.header__down_navigation {
+  max-width: 800px;
+  height: 300px;
+  position: relative;
+  z-index: 1;
+  color: #ffffff;
+  padding-left: 300px;
+  padding-top: 50px;
+}
+.header__down_navigation_p {
+  font-family: inter, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  margin-bottom: 24px;
+  padding-top: 128px;
+}
+.header__down_navigation_s {
+  font-weight: 900;
+}
+h1 {
+  font-family: Sen, sans-serif;
+
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -2px;
+  margin-bottom: 24px;
+}
+.header__down_navigation_p2 {
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 16px;
+}
+.header__down_navigation_s2 {
+  color: #ffd050;
+}
+.header__down_navigation_p3 {
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+  padding-bottom: 48px;
+}
+.btn_hd {
+  color: #232536;
+  background-color: #ffd050;
+  height: 56px;
+  width: 204px;
+  border: 1px solid #ffd050;
+  font-family: Sen;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+.btn_hd:hover {
+  background-color: #f6c02a;
+}
+.btn_hd:active {
+  transform: translate(1px, 1px);
+}

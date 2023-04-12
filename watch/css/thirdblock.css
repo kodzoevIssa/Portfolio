@@ -1,0 +1,125 @@
+.thirdblock {
+  margin-top: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.thirdblock__left {
+  margin-left: 40px;
+  margin-right: 10px;
+  width: 700px;
+}
+
+.thirdblock__left_h2 {
+  font-family: Playfair Display, sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+  margin-bottom: 40px;
+  margin-top: 150px;
+}
+
+.thirdblock__left_img {
+  margin-right: 20px;
+}
+
+.thirdblock__left_p {
+  font-family: roboto, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 125px;
+}
+
+.thirdblock__left_a {
+  font-family: roboto, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 27px;
+  color: #262421;
+}
+
+.thirdblock__rigth_img1 {
+  position: relative;
+  width: 242px;
+  height: 228px;
+  left: 10.5%;
+  top: 3%;
+}
+
+.thirdblock__rigth_img2 {
+  position: relative;
+  width: 242px;
+  height: 222px;
+  top: 36.5%;
+  right: 33%;
+}
+
+.thirdblock__rigth_img3 {
+  position: relative;
+  bottom: 30%;
+  left: 55%;
+  width: 377px;
+  height: 460px;
+}
+
+@media (max-width: 2560px) {
+  .thirdblock__rigth_img1 {
+    left: 15%;
+    top: 3%;
+  }
+  .thirdblock__rigth_img2 {
+    top: 36.5%;
+    right: 23%;
+  }
+  .thirdblock__rigth_img3 {
+    bottom: 30%;
+    left: 55%;
+  }
+}
+@media (max-width: 1990px) {
+  .thirdblock__rigth_img1 {
+    left: 10.5%;
+    top: 3%;
+  }
+  .thirdblock__rigth_img2 {
+    top: 36.5%;
+    right: 33%;
+  }
+  .thirdblock__rigth_img3 {
+    bottom: 30%;
+    left: 55%;
+  }
+}
+@media (max-width: 1441px) {
+  .thirdblock__rigth_img1 {
+    left: 5%;
+    top: 3%;
+  }
+  .thirdblock__rigth_img2 {
+    top: 36.5%;
+    right: 42%;
+  }
+  .thirdblock__rigth_img3 {
+    bottom: 30%;
+    left: 55%;
+  }
+}
+@media (max-width: 1156px) {
+  .thirdblock__rigth_img1 {
+    left: 0;
+    top: 19.5%;
+  }
+  .thirdblock__rigth_img2 {
+    top: 20%;
+    right: 0;
+  }
+  .thirdblock__rigth_img3 {
+    bottom: 30%;
+    left: 55%;
+  }
+}

@@ -1,0 +1,118 @@
+.header {
+  background-color: #fdfdfb;
+  height: 858px;
+}
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 35px;
+  padding-bottom: 26px;
+}
+.header__a:not(.first) {
+  padding-left: 65px;
+}
+.header__a {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #555248;
+  text-decoration: none;
+}
+.header__a:hover {
+  color: #8b8880;
+}
+.header__svg:not(.first) {
+  padding-left: 15px;
+}
+.header__main {
+  display: flex;
+  height: 768px;
+}
+.header__left {
+  display: flex;
+  padding-top: 200px;
+}
+.header__left_h1 {
+  position: relative;
+  z-index: 1;
+  font-family: Playfair Display, sans-serif;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 60px;
+}
+.header__left_p1 {
+  font-family: Playfair Display, sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+}
+.header__left_p2 {
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  margin-top: 19px;
+}
+.header__left_btn {
+  font-family: roboto, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 1px;
+  width: 205px;
+  height: 64px;
+  border: 3px solid #444240;
+  background-color: #444240;
+  color: #ffffff;
+  margin-top: 44px;
+}
+.header__left_btn:active {
+  background-color: #4f4d4c;
+  transform: translate(1px, 1px);
+}
+.img__line {
+  margin-top: 30px;
+  margin-right: 10px;
+  width: 50px;
+  height: 1px;
+}
+.img__line_2 {
+  margin: 10px;
+  width: 50px;
+  height: 1px;
+}
+
+.header__right_img1 {
+  position: relative;
+  right: 15%;
+}
+.header__right_img2 {
+  left: 50%;
+  top: 8.4%;
+  position: absolute;
+}
+.header__right_price1 {
+  position: absolute;
+  display: flex;
+  top: 22%;
+  left: 45%;
+}
+.header__right_price2 {
+  position: absolute;
+  display: flex;
+  top: 77%;
+  left: 70%;
+}
+.header__right_p1 {
+  font-family: Prata, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+}
+.header__right_p2 {
+  font-family: Prata, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+}

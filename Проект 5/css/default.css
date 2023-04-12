@@ -1,0 +1,26 @@
+a {
+  text-decoration: none;
+}
+html,
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+span {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+h2.post {
+  font-family: Sen, sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -2px;
+}

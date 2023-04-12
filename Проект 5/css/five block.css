@@ -1,0 +1,55 @@
+.five__block {
+  display: flex;
+  justify-content: space-between;
+  width: 1490px;
+  margin-left: 180px;
+  margin-bottom: 115px;
+}
+.five_h2 {
+  margin-bottom: 48px;
+  font-family: Sen;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -2px;
+  text-align: center;
+}
+.five__nav {
+  text-align: center;
+  width: 300px;
+  height: 324px;
+  background-color: #f4f4f4;
+}
+.five__p1 {
+  font-family: Sen;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: -1px;
+  padding-top: 20px;
+  text-align: center;
+}
+.five__p2 {
+  font-family: inter;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #9b9797;
+  text-align: center;
+}
+
+.five_img {
+  padding-top: 40px;
+}
+.five__nav_color {
+  background-color: #fbf6ea;
+}
+.five__logo {
+  margin-left: 180px;
+  width: 1480px;
+  margin-bottom: 110px;
+}
+.five__list_icon {
+  margin-top: 20px;
+  letter-spacing: 16px;
+}

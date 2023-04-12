@@ -1,0 +1,22 @@
+.seven__block {
+  text-align: center;
+}
+.seven__block_p1 {
+  font-family: Sen;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -2px;
+  margin-bottom: 16px;
+}
+.seven__block_p2 {
+  font-family: inter;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgb(160, 154, 154);
+  margin-bottom: 32px;
+}
+.seven_btn {
+  margin-bottom: 128px;
+}
